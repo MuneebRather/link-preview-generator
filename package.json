@@ -1,0 +1,18 @@
+{
+  "name": "link-preview-generator",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "link-preview-js": "^3.0.5"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.12",
+    "@types/cheerio": "^0.22.35"
+  }
+}
